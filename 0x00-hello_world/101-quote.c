@@ -6,9 +6,11 @@
  */
 int main(void)
 {
-	char err[] = "and that piece of art is\" - Dora Korpar, 2015-10-1
-9\n";
-	write(2, err, 59);
+	write(2,
+
+						"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",
+
+									59);
 
 	return (1);
 }
