@@ -5,12 +5,16 @@
  */
 int main(void)
 {
-	char low;
+	char low = 'a';
 
-	for (low = 'a'; low <= 'z'; low++)
+	while (low <= 'z')
+	{
 		if (low != 'q' && low != 'e')
-			continue;
-				putchar(low);
+		{
+			putchar(low);
+		}
+		low++;
+	}
 	putchar('\n');
 	return (0);
 }
