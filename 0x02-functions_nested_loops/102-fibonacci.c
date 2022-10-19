@@ -6,27 +6,22 @@
  */
 int main(void)
 {
-	int count = 3;
+	long int i, j, k, next;
 
-	long int first = 1, second = 2;
-	long int next = first + second;
-
-	printf("%lu, ", first);
-	printf("%lu, ", second);
-	while (count <= 50)
+	j = 1;
+	k = 2;
+	for (i = 1; i <= 50; ++i)
 	{
-		if (count == 5)
+		if (j != 20365011074)
 		{
-			printf("%lu \n", next);
-		}
-		else
+			printf("%ld, ", j);
+		} else 
 		{
-			printf("%lu, ", next);
+			printf("%ld\n", j);
 		}
-		first = second;
-		second = next;
-		next = first + second;
-		count++;
+		next = j + k;
+		j = k;
+		k = next;
 	}
 	return (0);
 }
