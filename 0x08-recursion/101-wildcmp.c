@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * wildamp - compares two strings
+ * wildcmp - compares two strings
  * @s1: string 1
  * @s2: string 2, it can contain the special character *
  * Return: 1 if are identical, 0 otherwise.
  */
-int wildamp(char *s1, char *s2)
+int wildcmp(char *s1, char *s2)
 {
 	if (*s2 == '*' && *(s2 + 1) != '\0' && *s1 == '\0')
 		return (0);
