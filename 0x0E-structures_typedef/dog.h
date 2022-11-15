@@ -2,7 +2,7 @@
 #define DOG_H
 
 /**
- * struct - dog a dog's basic info
+ * struct dog - a dog's basic info
  * @name: Name of the dog
  * @age: age of the dog
  * @owner: who is the owner of the dog
