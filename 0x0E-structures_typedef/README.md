@@ -1,1 +1,1 @@
-Solution to tasks on strcts
+Solution to tasks on structs
